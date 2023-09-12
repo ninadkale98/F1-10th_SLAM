@@ -38,3 +38,11 @@ cd ..
 catkin_make
 
 source devel/setup.bash
+
+git clone https://github.com/ninadkale98/particle_filter.git
+
+cp particle_filter/*.launch src/particle_filter/launch/
+cp particle_filter/*.rviz src/particle_filter/rviz/
+cp particle_filter/*.py src/particle_filter/src/
+
+rm -r particle_filter
