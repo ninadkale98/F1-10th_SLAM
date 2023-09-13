@@ -31,10 +31,10 @@ catkin_make_isolated --install --use-ninja
 
 source install_isolated/setup.bash
 
-git clone https://github.com/ninadkale98/cartographer.git
+git clone https://github.com/ninadkale98/cartographer_utils.git
 
-cp cartographer/*.launch install_isolated/share/cartographer_ros/launch/
+cp cartographer_utils/*.launch install_isolated/share/cartographer_ros/launch/
 
-cp cartographer/*.lua install_isolated/share/cartographer_ros/configuration_files/
+cp cartographer_utils/*.lua install_isolated/share/cartographer_ros/configuration_files/
 
-rm -r cartographer
+rm -r cartographer_utils
