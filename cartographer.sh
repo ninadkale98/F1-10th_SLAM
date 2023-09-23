@@ -31,6 +31,8 @@ catkin_make_isolated --install --use-ninja
 
 source install_isolated/setup.bash
 
+sudo apt-install python-is-python3
+
 git clone https://github.com/ninadkale98/cartographer_utils.git
 
 cp cartographer_utils/*.launch install_isolated/share/cartographer_ros/launch/
